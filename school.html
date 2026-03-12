@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>School assignment</title>
+        <link rel="stylesheet" href=" ./styles/second.css" >    
+        <link rel="stylesheet" href=" ./styles/first.css" >
+
+    </head>
+    <body id="light">
+        <button onclick="document.body.id = 'dark';">
+            Dark mode
+        </button>
+        <button onclick="document.body.id = 'light';">
+            Light mode
+        </button>
+    
+        <h1>Intro to JavaScript</h1>
+        <h2>A subheading</h2>
+        <p>
+            Hello there. This is a  paragraph.
+        </p>
+        <p>
+            this is another paragraph.
+        </p>
+        <img src="./images/image.jpg" width="200">
+        <h2>Another heading</h2>
+        <p>Last paragraph on this page.</p>
+        <script>
+          let dog = {
+            name: "Evil Garry",
+            weight: 7,
+            happy: false,
+          };  
+          console.log(dog.name);
+          let family = {
+            dad: "Ba",
+            mom: "Ma",
+            daughter: "Jie",
+            pet: dog,
+          };
+          console.log(family);
+          family.pet.happy = true;
+          console.log(console);
+        </script>
+    </body>
+</html>

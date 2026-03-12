@@ -1,0 +1,16 @@
+#dark {
+
+    background-color: black;
+    color: rgb(245, 209, 232);
+ 
+p {
+    background-color: rgb(117, 115, 117);
+    color: rgb(252, 177, 215);
+}
+
+h3 {
+    background-color: rgb(120, 106, 114);
+    color: aqua;
+    padding: 20px;
+}
+ }

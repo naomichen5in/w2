@@ -1,0 +1,17 @@
+#light {
+  border: 5px solid rgb(249, 185, 230);
+  background-color: rgb(247, 249, 249);
+  color: rgba(252, 170, 234, 0.934); 
+
+p {
+    background-color: rgb(117, 115, 117);
+    color: rgb(247, 181, 214);
+}
+
+h3 {
+    background-color: rgb(141, 125, 134);
+    color: aqua;
+    padding: 20px;
+}
+}
+
