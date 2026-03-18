@@ -4,8 +4,14 @@
   color: rgba(252, 170, 234, 0.934); 
 
 p {
-    background-color: rgb(117, 115, 117);
+    background-color: rgb(155, 153, 155);
     color: rgb(247, 181, 214);
+}
+
+ .piglet {
+    background-color: rgb(240, 196, 203);
+    color:rgb(112, 122, 122);
+    padding: 20px;
 }
 
 h3 {
