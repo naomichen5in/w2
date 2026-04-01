@@ -6,14 +6,33 @@
         <link rel="stylesheet" href=" ./styles/first.css" >
 
     </head>
-    <body id="light">
-        <button onclick="document.body.id = 'dark';">
-            Dark mode
-        </button>
-        <button onclick="document.body.id = 'light';">
-            Light mode
+
+    <button onclick="howAreYou();">
+        How are you?
+    </button> 
+
+    <body id="dark">
+        <button id="color-mode" onclick="changeColors();">
+          Light mode
         </button>
     
+    <script>
+      const colorModeButton = document.querySelector('#color-mode');
+
+     function changeColors() {
+       if(document.body.id === "dark") {
+        console.log('turn on light');
+        document.body.id = 'light';
+        colorModeButton.textContent = 'Dark mode';
+
+       }else{
+       console.log('turn on dark');
+       document.body.id = 'dark';
+       colorModeButton.textContent = 'Dark mode';
+       }
+     }
+    </script>
+
         <h1>My first website</h1>
         <h2>A subheading</h2>
         <p class = "piglet">
@@ -23,6 +42,7 @@
             this is another paragraph.
         </p>
         <img src="./images/image.jpg" width="200">
+        <img src="./images/dog3 full.png" width="200">
         <h2>Another heading</h2>
         <p class = "piglet">Last paragraph on this page.</p>
         <script>
@@ -41,6 +61,16 @@
           console.log(family);
           family.pet.happy = true;
           console.log(console);
+
+          function howAreYou() {
+          let mood = prompt("how are you feeling?");
+          if (mood === "sleepy") {
+            alert('WAKE UP');
+          } else {
+            alert("oh! You are feeling "+mood+".")
+          }
+        }
+
         </script>
         <footer>
         <p>2026/3/12</p>
