@@ -63,13 +63,34 @@
           console.log(console);
 
           function howAreYou() {
-          let mood = prompt("how are you feeling?");
+          let feeling = prompt("how are you feeling?");
+          respond(feeling);
+          }
+
+         function respond(mood) {
           if (mood === "sleepy") {
             alert('WAKE UP');
           } else {
-            alert("oh! You are feeling "+mood+".")
-          }
+            alert("oh! You are feeling "+mood+".") 
         }
+         }
+      
+         console.log("mood", typeof mood);
+         console.log("hi");
+         if (true) {
+           let insideIf = 'yep';
+        
+         console.log(typeof insideIf);
+         }
+
+        function addTwo(value){
+            console.log(value+2);
+            return value+2;
+        }
+        addTwo(5);
+
+       let result = addTwo(9);
+       console.log("result", result);
 
         </script>
         <footer>
